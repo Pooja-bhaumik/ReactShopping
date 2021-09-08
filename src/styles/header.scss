@@ -1,0 +1,26 @@
+@import "./-variables.scss";
+
+.custom-nav {
+  position: relative !important;
+}
+.main-header {
+  top: 0;
+  z-index: 88;
+}
+
+.nav-text {
+  font-size: 40px !important;
+}
+.logo-dot {
+  color: $orange-color;
+}
+.cutom-list {
+  li {
+    padding: 0px 13px;
+  }
+  li {
+    a.active {
+      color: $orange-color !important;
+    }
+  }
+}

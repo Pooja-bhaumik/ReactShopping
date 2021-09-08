@@ -1,0 +1,43 @@
+@mixin commonheadings {
+  font-weight: 900;
+  color: #000;
+  font-size: 40px;
+}
+@mixin commontext {
+  font-size: 16px;
+  color: #5a5d61cc;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+@mixin commonheadingThird {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0e0b0b;
+}
+@mixin indexcommonicon {
+  font-size: 19px;
+  padding-right: 4px;
+  vertical-align: middle;
+}
+@mixin indexactionbtn {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 6px 20px;
+  border: 2px solid #000;
+}
+@mixin about_same_head {
+  font-size: 18px;
+  font-weight: 300;
+  color: #808080;
+}
+@mixin list_social_icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: #000;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 2px;
+}

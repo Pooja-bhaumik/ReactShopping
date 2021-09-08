@@ -1,0 +1,20 @@
+@import "./-variables.scss";
+@import "./mixin.scss";
+.top-menu {
+  li {
+    @include list_social_icon;
+  }
+  a {
+    vertical-align: middle;
+  }
+}
+.top_contact {
+  .top-contact-icon {
+    font-size: 20px;
+    color: $orange-color;
+    padding-right: 4px;
+  }
+  span {
+    color: $primary-color;
+  }
+}
